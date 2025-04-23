@@ -4,20 +4,22 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-html{
-    width: 100vw;
-    height: 100vh;
-    background: black;
-}
-body{
-    background: url(imagens/fundo-madeira.jpg)no-repeat;
-    background-size: cover;
+html, body{ 
+  width: 100vw;
+  height: 100vh;
+  background: black;
 }
 main{
     position: relative;
     height: 100vh;
-    max-height:100% ;
-    background: url(imagens/frame-iphone.png) no-repeat;
-    background-size:250px;
+    background-color: rgb(1, 236, 158);
+}
+#telefone{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    top: 50%;
     left: 50%;
+    transform: translate(-50%, -50% );
 }
