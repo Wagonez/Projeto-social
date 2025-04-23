@@ -26,6 +26,10 @@ main{
     background-size: 250px;
 }
 iframe#tela{
-    position: relative;
+    position: absolute;
     top: 64px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 212px;
+    height: 375px;
 }
