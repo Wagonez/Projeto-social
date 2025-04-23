@@ -1,0 +1,12 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    width: 100vw;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
