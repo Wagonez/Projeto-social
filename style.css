@@ -46,6 +46,6 @@ section#redes-sociais img{
 }
 section#redes-sociais img:hover{
     border: 2px solid black;
-    transition: 0.5s;
-    transform: translate(-3%);
+    transition: 0.3s;
+    transform: translate(-4%);
 }
