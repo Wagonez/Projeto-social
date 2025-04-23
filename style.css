@@ -39,3 +39,9 @@ section#redes-sociais img{
     padding: 10px;
     border-radius: 50%;
 }
+#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img:hover{
+    border: 1px solid black;
+}
